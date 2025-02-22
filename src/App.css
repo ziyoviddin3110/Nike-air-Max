@@ -94,6 +94,7 @@ ul li a:hover{
   background: green;
   color: white;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 
@@ -121,10 +122,12 @@ transition: all .5s ease-in-out;
 .card2_btn1 button:hover{
 border: 1px solid green;
 background: green;
+cursor: pointer;
 
 }
 .imgs_card{
   z-index: 3;
+  
 }
 
 .imgs_card img{
@@ -132,6 +135,7 @@ background: green;
   height: 730px;
   /* border: 1px solid red; */
   margin-top: -100px;
+  
 }
 
 
@@ -155,6 +159,7 @@ background: green;
 overflow: hidden;
 padding-top: 15px;
 transition: all .5s ease-in-out;
+cursor: pointer;
 }
 
 .imgs_box img{
