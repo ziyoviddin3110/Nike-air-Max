@@ -5,20 +5,17 @@
   function App() {
     const [money, setMoney] = useState(11495.00);
     const [count, setCount] = useState(1);
-    const [minus, setminus] = useState(1);
+   
     const [imgs, setimgs] = useState("/public/imgs/image 1.png");
    
 
     const pilus_btn = () => {
-      setMoney(money * 2);
       setCount(count + 1);
-      setminus(minus - 1);
     };
 
     const minus_btn = () => {
       if (count > 1) {
         setCount(count - 1);
-        setMoney(money / 2);
       }
     };
 
@@ -89,7 +86,7 @@
                   </div>
                   <div className="card2_btn1">
                     <button>Add to Bag</button>
-                    <h2>₹ {money.toLocaleString()}</h2>
+                    <h2>₹ {money * count}</h2>
                   </div>
                 </div>
                 <div className="imgs_card">
